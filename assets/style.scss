@@ -1,0 +1,49 @@
+h3 {
+  margin: 50px 0px 15px 4%
+}
+button.clikable-number {
+  line-height: 6;
+  font-size: 14px;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+  outline: 0
+}
+.mt-50 {
+  margin-top: 50px
+}
+.wrap-player {
+  padding: 10px 130px
+}
+.text-center {
+  text-align: center
+}
+.wrap-board {
+  position: relative;
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+  /* grid-auto-rows: minmax(100px, auto); */
+}
+.wrap-board .block {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background: rgba(0,0,0,0.2)
+}
+.info-text {
+  text-align: center;
+  color: #999;
+  width: 60%;
+  margin: 10px auto;
+  border-radius: 5px;
+  line-height: 2;
+}
+button.clikable-number[disabled] {
+  background-color: #67C23A;
+  border-color: #67C23A;
+  cursor:not-allowed;
+  color: #fff
+}
